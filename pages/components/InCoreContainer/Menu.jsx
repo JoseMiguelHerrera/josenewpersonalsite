@@ -27,6 +27,7 @@ export default function Menu(props) {
                     props.menuData.map((item) => {
                         return (
                             <div
+                            key={item.id}
                             onClick={() => handleClick(item.id)}
                                 className={`${hoveredId === item.id ? styles.MenuItemHover : styles.MenuItem}
                                             ${props.selectedId === item.id ? styles.MenuItemSelected : ""}

@@ -6,8 +6,6 @@ import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect';
 const AsciiArtScene = () => {
   const mountRef = useRef(null);
 
-  console.log(mountRef)
-
   useEffect(() => {
     const mount = mountRef.current;
     const width = mount.clientWidth;

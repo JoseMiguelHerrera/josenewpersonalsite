@@ -1,20 +1,12 @@
 import { TypeAnimation } from 'react-type-animation';
 
-const AnimatedLeadTitle = () => {
+const AnimatedLeadTitle = ({headers}) => {
+  const sequence = headers.flatMap(header => [header, 2000]);
   return (
     <TypeAnimation
-      sequence={[
-        'Jose Herrera is a Software Engineer.',
-        2000,
-        'Jose Herrera does Blockchain Engineering.',
-        2000,
-        'Jose Herrera specializes in Solidity/EVM work.',
-        2000,
-        'Jose Herrera also likes to make neat websites',
-        2000
-      ]}
+      sequence={sequence}
       speed={200}
-      style={{ fontSize: '2em', display: 'flex', flexDirection: 'row', alignItems: "center", justifyContent: "center"}}
+      style={{ fontSize: '2em', color: '#00FF00', display: 'flex', flexDirection: 'row', alignItems: "center", justifyContent: "center"}}
       repeat={Infinity}
     />
   );

@@ -4,39 +4,18 @@ import { useState } from 'react';
 import Menu from './InCoreContainer/Menu';
 import ContentContainer from './InCoreContainer/ContentContainer';
 
-export default function CoreContainer() {
+export default function CoreContainer(props) {
+
+    const data = props.data;
 
 
     const [selectedId, setSelectedId] = useState(0);
 
-    const menuData = [
-        {
-            menuName: "About",
-            id: 0
-        },
-        {
-            menuName: "Experience",
-            id: 1
-        },
-        {
-            menuName: "Projects",
-            id: 2
-    
-        },
-        {
-            menuName: "Social Media",
-            id: 3
-        },
-        {
-            menuName: "Publications",
-            id: 4
-        }
-    ]
 
     return (
-            <div className={styles.CoreContainer}>
-                <Menu menuData={menuData} selectedId={selectedId} setSelectedId={setSelectedId} ></Menu>
-                <ContentContainer selectedId={selectedId} menuData={menuData}></ContentContainer>
-            </div>
+        <div className={styles.CoreContainer}>
+            <Menu menuData={data.menuData} selectedId={selectedId} setSelectedId={setSelectedId} ></Menu>
+            <ContentContainer selectedId={selectedId} menuData={data.menuData}></ContentContainer>
+        </div>
     )
 }

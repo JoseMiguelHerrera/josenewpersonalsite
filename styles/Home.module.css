@@ -12,6 +12,7 @@
   width: 100%;
   height: 7vh;
   border-style: solid;
+  border-color: #00FF00;
 }
 
 .CoreContainer {
@@ -26,6 +27,8 @@
   height: 30%;
   border-style: solid;
   border-top: 0;
+  background-color: #001100;
+  color: #00FF00;
 }
 
 .MenuContainer{
@@ -48,6 +51,8 @@
   border-style: solid;
   border-top: 0;
   cursor: pointer;
+  color: #00FF00;
+  background-color: #001100;
 }
 
 .MenuItemHover{
@@ -58,6 +63,7 @@
   border-style: solid;
   border-top: 0;
   background-color: #005900;
+  color: #00FF00;
   cursor: pointer;
 }
 
@@ -79,8 +85,8 @@
 
 .ContentContainer{
   color: #fff;
-  background: linear-gradient(-45deg, #004D40, #1B5E20, #008000, #81C784);
-  background-size: 400% 400%;
+  background: linear-gradient(-45deg, #001100 40%, #001800 60%, #002200 80%, #003300 100%);
+  background-size: 300% 300%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
@@ -91,48 +97,48 @@
 }
 
 .ContentBox{
-  background-color: green;
+  background-color: #001100;
   width:95%;
   height: 92%;
   border-style: solid;
-  border-color: black;
-  border-top: 1.5px solid black;
+  border-color: #00FF00;
+  border-top: 1.5px solid #00FF00;
 }
 
 @-webkit-keyframes Gradient {
   0% {
-  background-position: 0% 50%
+    background-position: 0% 50%;
   }
-50% {
-background-position: 100% 50%
-}
-100% {
-background-position: 0% 50%
-}
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @-moz-keyframes Gradient {
   0% {
-  background-position: 0% 50%
+    background-position: 0% 50%;
   }
-50% {
-background-position: 100% 50%
-}
-100% {
-background-position: 0% 50%
-}
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes Gradient {
   0% {
-  background-position: 0% 50%
+    background-position: 0% 50%;
   }
-50% {
-background-position: 100% 50%
-}
-100% {
-background-position: 0% 50%
-}
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .Footer {
@@ -141,6 +147,7 @@ background-position: 0% 50%
   align-items: center;
   justify-content: center;
   border-style: solid;
+  color: #00FF00;
 }
 
 .AnimatedLeadTitleContainer{
@@ -150,7 +157,7 @@ background-position: 0% 50%
 }
 
 .MainContainer {
-  background-color: green;
+  background-color: #001100;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -243,7 +250,7 @@ background-position: 0% 50%
 
 .ContentBoxEntry {
   padding: 1rem;
-  border: solid black;
+  border: solid #00FF00;
   border-right: 0;
   border-left: 0;
   border-bottom: 0;
@@ -260,24 +267,24 @@ background-position: 0% 50%
 .EntryTitle {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: black;
+  color: #00FF00;
 }
 
 .EntryDate {
   font-style: italic;
   color: #666;
   margin-bottom: 0.5rem;
-  color: black;
+  color: #00FF00;
 }
 
 .EntryParagraph {
   margin-bottom: 0.5rem;
-  color: black;
+  color: #00FF00;
 }
 
 .EntryLink {
   display: inline-block;
-  color: black;
+  color: #00FF00;
   text-decoration: none;
   text-decoration: underline;
 }

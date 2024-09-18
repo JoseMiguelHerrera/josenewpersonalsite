@@ -1,6 +1,7 @@
 'use client'
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import data from '../data.json';
 
 import Header from './components/Header'
 import CoreContainer from './components/CoreContainer'
@@ -15,8 +16,8 @@ export default function Home() {
 
       <main>
         <div className={styles.MainContainer}>
-          <Header></Header>
-          <CoreContainer></CoreContainer>
+          <Header headerData={data.headerData}></Header>
+          <CoreContainer data={data}></CoreContainer>
           <Footer></Footer>
         </div>
       </main>
