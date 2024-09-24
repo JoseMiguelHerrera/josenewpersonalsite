@@ -24,7 +24,36 @@ export default function Home() {
     window.addEventListener('resize', checkMobile);
     //don't know why this is needed but it is
     return () => window.removeEventListener('resize', checkMobile);
+
+
+    const hideAddressBar = () => {
+      if (typeof window !== 'undefined') {
+        window.scrollTo(0, 1)
+      }
+    }
+  
+    // Hide address bar on page load
+    window.addEventListener('load', hideAddressBar)
+  
+    // Hide address bar on orientation change
+    window.addEventListener('orientationchange', hideAddressBar)
+  
+    return () => {
+      window.removeEventListener('load', hideAddressBar)
+      window.removeEventListener('orientationchange', hideAddressBar)
+    }
+
+
+
+
+
 }, []);
+
+
+
+
+
+
 
   return (
     <div className={styles.container}>
