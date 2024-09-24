@@ -32,8 +32,11 @@ export default function Home() {
         <title>Jose Herrera</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="theme-color" content="#000000" />
       <main>
         <div className={styles.MainContainer}>
           <Header headerData={data.headerData} isMobile={isMobile} menuToggleCallback={() => setIsMenuOpen(!isMenuOpen)} ></Header>
