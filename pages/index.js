@@ -24,30 +24,9 @@ export default function Home() {
     window.addEventListener('resize', checkMobile);
     //don't know why this is needed but it is
     return () => window.removeEventListener('resize', checkMobile);
+    window.scrollTo(0, document.body.scrollHeight);
 
-
-    const hideAddressBar = () => {
-      if (typeof window !== 'undefined') {
-        window.scrollTo(0, 1)
-      }
-    }
-  
-    // Hide address bar on page load
-    window.addEventListener('load', hideAddressBar)
-  
-    // Hide address bar on orientation change
-    window.addEventListener('orientationchange', hideAddressBar)
-  
-    return () => {
-      window.removeEventListener('load', hideAddressBar)
-      window.removeEventListener('orientationchange', hideAddressBar)
-    }
-
-
-
-
-
-}, []);
+  }, []);
 
 
 
@@ -65,7 +44,7 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-      <meta name="theme-color" content="#000000" />
+      <meta name="mobile-web-app-capable" content="yes" />
       <main>
         <div className={styles.MainContainer}>
           <Header headerData={data.headerData} isMobile={isMobile} menuToggleCallback={() => setIsMenuOpen(!isMenuOpen)} ></Header>
