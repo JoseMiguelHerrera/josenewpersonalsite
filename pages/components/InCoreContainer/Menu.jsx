@@ -4,7 +4,7 @@ import AsciiArtScene from '../AsciiArtScene'
 import { useState,useEffect } from 'react';
 
 
-export default function Menu(props) {
+export default function Menu({ menuData = [], ...props }) {
 
     const [hoveredId, setHoveredId] = useState(null);
 
@@ -18,7 +18,7 @@ export default function Menu(props) {
     };
 
     const isLastMenuItem = (id) =>{
-        const lastIndex=props.menuData.length-1;
+        const lastIndex=menuData.length-1;
         return id == lastIndex;
     }    
     return (
@@ -30,7 +30,7 @@ export default function Menu(props) {
             }
             <div className={styles.MenuItems}>
                 {
-                    props.menuData.map((item) => {
+                    menuData.map((item) => {
                         return (
                             <div
                             key={item.id}

@@ -1,6 +1,6 @@
 import styles from '../../../styles/Home.module.css';
 
-export default function ContentBox({ menuName, entries }) {
+export default function ContentBox({ menuName, entries=[] }) {
   return (
     <div className={styles.ContentBox}>
       <div className={styles.ContentBoxScrollable}>

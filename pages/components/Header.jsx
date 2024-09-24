@@ -1,7 +1,7 @@
 import styles from '../../styles/Home.module.css';
 import AnimatedLeadTitle from './AnimatedLeadTitle'
 import { useState } from 'react';
-export default function Header({ headerData, isMobile,menuToggleCallback }) {
+export default function Header({ headerData=[], isMobile,menuToggleCallback }) {
 
     const [isOpen, setIsOpen] = useState(false);
 

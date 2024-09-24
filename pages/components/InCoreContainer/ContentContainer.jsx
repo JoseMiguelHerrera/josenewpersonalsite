@@ -1,9 +1,8 @@
 import styles from '../../../styles/Home.module.css';
 import ContentBox from './ContentBox';
-export default function ContentContainer(props) {
+export default function ContentContainer({ menuData = [], selectedId = 0, isMobile }) {
 
-    const content = props.menuData[props.selectedId];
-    const isMobile = props.isMobile;
+    const content = menuData[selectedId] || { menuName: '', entries: [] };
 
     return (
         

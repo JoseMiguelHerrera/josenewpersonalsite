@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 
-const AnimatedLeadTitle = ({ headers, isMobile }) => {
+const AnimatedLeadTitle = ({ headers= [], isMobile }) => {
   const sequence = headers.flatMap(header => [header, 2000]);
     return (
       <TypeAnimation

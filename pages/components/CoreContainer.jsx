@@ -6,7 +6,8 @@ import Menu from './InCoreContainer/Menu';
 import ContentContainer from './InCoreContainer/ContentContainer';
 
 export default function CoreContainer(props) {
-    const data = props.data;
+    const data = props.data?props.data:[];
+
     const isMenuOpen = props.isMenuOpen;
     console.log(isMenuOpen);
     const [selectedId, setSelectedId] = useState(0);
