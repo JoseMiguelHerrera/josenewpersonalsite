@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: green;
+  background-color: #001100;
   height: 90vh;
 }
 
@@ -29,6 +29,7 @@
   border-top: 0;
   background-color: #001100;
   color: #00FF00;
+  width: 100%;
 }
 
 .MenuContainer{
@@ -148,12 +149,13 @@
   justify-content: center;
   border-style: solid;
   color: #00FF00;
+  background-color: #001100;
 }
 
 .AnimatedLeadTitleContainer{
   display: flex;
-  justify-content: center;
-  margin-left: 0vw;
+  justify-content: flex-start;
+  margin-left: 15px;
 }
 
 .MainContainer {
@@ -294,9 +296,137 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+}
+
+.burgerButton{
+ display: none;
+}
+
+@media (max-width: 768px) {
+
+
+  .ContentContainer{
+    width: 100vw;
+    height: 69%;
+    flex-direction: column;
+    color: #00FF00;
+  }
+
+
+  /*
+  .Header {
+    height: auto;
+  }
+  */
+
+  .menuIcon {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .menuIcon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    background: #00FF00;
+    border-radius: 9px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .25s ease-in-out;
+  }
+  
+  .menuIcon span:nth-child(1) {
+    top: 0;
+    width: 100%;
+  }
+  
+  .menuIcon span:nth-child(2) {
+    top: 10px;
+    width: 100%;
+  }
+  
+  .menuIcon span:nth-child(3) {
+    top: 20px;
+    width: 100%;
+  }
+  
+  .menuIcon.open span:nth-child(1) {
+    top: 10px;
+    transform: translateX(-50%) rotate(45deg);
+  }
+  
+  .menuIcon.open span:nth-child(2) {
+    width: 0;
+    opacity: 0;
+  }
+  
+  .menuIcon.open span:nth-child(3) {
+    top: 10px;
+    transform: translateX(-50%) rotate(-45deg);
+  }
+
+  .CoreContainer {
+    height: 93vh;
+    flex-direction: column;
+  }
+
+  .MenuContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .MenuItems {
+    height: 100%;
+  }
+
+  .AnimatedLeadTitleContainer{
+    width: 95%;
+  }
+
+  .headerButtonContainer{
+  width: 70px;
+   height: 100%;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-style: solid;
+   border-color: #00FF00;
+   border-top: 0;
+   border-bottom: 0;
+   border-right: 0;
+   cursor: pointer;
+
+  }
+
+  .headerIcon{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerText{
+    margin: 0;
+    color: #00FF00;
+    font-size: 1.5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
 }

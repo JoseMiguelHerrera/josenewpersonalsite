@@ -6,19 +6,39 @@ import data from '../data.json';
 import Header from './components/Header'
 import CoreContainer from './components/CoreContainer'
 import Footer from './components/Footer';
+
+import { useState,useEffect } from 'react';
+
+
 export default function Home() {
+
+  const [isMobile, setIsMobile] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+        setIsMobile(window.innerWidth <= 768);
+        console.log(window.innerWidth)
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    //don't know why this is needed but it is
+    return () => window.removeEventListener('resize', checkMobile);
+}, []);
+
   return (
     <div className={styles.container}>
       <Head>
         <title>Jose Herrera</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       <main>
         <div className={styles.MainContainer}>
-          <Header headerData={data.headerData}></Header>
-          <CoreContainer data={data}></CoreContainer>
-          <Footer></Footer>
+          <Header headerData={data.headerData} isMobile={isMobile} menuToggleCallback={() => setIsMenuOpen(!isMenuOpen)} ></Header>
+          <CoreContainer data={data} isMobile={isMobile} isMenuOpen={isMenuOpen}  menuToggleCallback={() => setIsMenuOpen(!isMenuOpen)} ></CoreContainer>
+          {!isMobile && <Footer></Footer>}
         </div>
       </main>
 
@@ -73,18 +93,7 @@ export default function Home() {
           padding: 0;
           margin: 0;
           background-color: green;
-          font-family:
-            -apple-system,
-            BlinkMacSystemFont,
-            Segoe UI,
-            Roboto,
-            Oxygen,
-            Ubuntu,
-            Cantarell,
-            Fira Sans,
-            Droid Sans,
-            Helvetica Neue,
-            sans-serif;
+          font-family: 'Courier New', Courier, monospace;
         }
         * {
           box-sizing: border-box;

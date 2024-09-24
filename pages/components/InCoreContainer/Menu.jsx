@@ -1,7 +1,7 @@
 import styles from '../../../styles/Home.module.css';
 import MenuItem from './InMenu/MenuItem';
 import AsciiArtScene from '../AsciiArtScene'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 
 export default function Menu(props) {
@@ -10,18 +10,24 @@ export default function Menu(props) {
 
     const handleClick = (id) => {
         props.setSelectedId(id);
+
+        if(props.isMobile){
+            props.menuToggleCallback();
+        }
+
     };
 
     const isLastMenuItem = (id) =>{
         const lastIndex=props.menuData.length-1;
         return id == lastIndex;
-    }
-    
+    }    
     return (
         <div className={styles.MenuContainer}>
+            {!props.isMobile &&
             <div className={styles.animationBox} >
                 {<AsciiArtScene></AsciiArtScene>}
-            </div>
+            </div>  
+            }
             <div className={styles.MenuItems}>
                 {
                     props.menuData.map((item) => {

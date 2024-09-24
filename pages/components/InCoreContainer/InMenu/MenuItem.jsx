@@ -9,7 +9,7 @@ export default function MenuItem(props) {
                 props.menuName,
               ]}
               speed={200}
-              style={{ fontSize: '1.5em', display: 'flex', flexDirection: 'row', alignItems: "center", justifyContent: "center"}}
+              style={{ fontSize: '1.5em', display: 'flex', fontWeight: 'bold', flexDirection: 'row', alignItems: "center", justifyContent: "center"}}
               repeat={0}
               cursor={true}
             />
