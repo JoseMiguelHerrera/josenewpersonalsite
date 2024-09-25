@@ -7,7 +7,7 @@ export default function ContentContainer({ menuData = [], selectedId = 0, isMobi
     return (
         
         <div className={styles.ContentContainer}>
-            {isMobile && <h3>{content.menuName}</h3>}
+            {isMobile && <div className={styles.menuNameContainer}><h3>{content.menuName}</h3></div>}
             <ContentBox menuName={content.menuName} entries={content.entries}></ContentBox>
         </div>
     )

@@ -25,10 +25,7 @@ export default function CoreContainer(props) {
                     {<AsciiArtScene></AsciiArtScene>}
                 </div>
                 {isMenuOpen && <Menu menuData={data.menuData} selectedId={selectedId} setSelectedId={setSelectedId} isMobile={true} isMenuOpen={isMenuOpen} menuToggleCallback={props.menuToggleCallback}    ></Menu>}
-
                 {!isMenuOpen && <ContentContainer selectedId={selectedId}  isMobile={true} menuData={data.menuData}></ContentContainer>}
-
-
             </div>
         )
     }

@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 
 import { useState,useEffect } from 'react';
 
-
 export default function Home() {
 
   const [isMobile, setIsMobile] = useState(false);
@@ -24,12 +23,13 @@ export default function Home() {
     window.addEventListener('resize', checkMobile);
     //don't know why this is needed but it is
     return () => window.removeEventListener('resize', checkMobile);
-    window.scrollTo(0, document.body.scrollHeight);
-
   }, []);
 
 
-
+  const toggleMenu = () => {
+    console.log("toggleMenu")
+    setIsMenuOpen(!isMenuOpen);
+  }
 
 
 
@@ -47,8 +47,8 @@ export default function Home() {
       <meta name="mobile-web-app-capable" content="yes" />
       <main>
         <div className={styles.MainContainer}>
-          <Header headerData={data.headerData} isMobile={isMobile} menuToggleCallback={() => setIsMenuOpen(!isMenuOpen)} ></Header>
-          <CoreContainer data={data} isMobile={isMobile} isMenuOpen={isMenuOpen}  menuToggleCallback={() => setIsMenuOpen(!isMenuOpen)} ></CoreContainer>
+          <Header headerData={data.headerData} isMobile={isMobile} isMenuOpen={isMenuOpen} menuToggleCallback={toggleMenu} ></Header>
+          <CoreContainer data={data} isMobile={isMobile} isMenuOpen={isMenuOpen}  menuToggleCallback={toggleMenu} ></CoreContainer>
           {!isMobile && <Footer></Footer>}
         </div>
       </main>
@@ -62,6 +62,7 @@ export default function Home() {
           align-items: center;
           width: 100%;
           height: 100vh;
+          align-items: start;
         }
         footer {
           width: 100%;
