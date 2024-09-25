@@ -104,7 +104,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          background-color: green;
+          background-color: #001100;
           font-family: 'Courier New', Courier, monospace;
         }
         * {
