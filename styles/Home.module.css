@@ -281,6 +281,7 @@
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color: #00FF00;
+  margin:15px;
 }
 
 .EntryDate {
@@ -288,11 +289,13 @@
   color: #666;
   margin-bottom: 0.5rem;
   color: #00FF00;
+  margin:15px;
 }
 
 .EntryParagraph {
   margin-bottom: 0.5rem;
   color: #00FF00;
+  margin:15px;
 }
 
 .EntryLink {
@@ -301,6 +304,7 @@
   text-decoration: none;
   text-decoration: underline;
   margin-bottom: 0.5rem;
+  margin:15px;
 }
 
 .EntryLink:hover {

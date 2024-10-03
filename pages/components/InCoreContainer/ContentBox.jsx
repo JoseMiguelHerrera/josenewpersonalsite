@@ -19,7 +19,7 @@ export default function ContentBox({ menuName, entries=[] }) {
             <p className={styles.EntryParagraph}>{entry.paragraph}</p>
             {entry.link && (
               <a href={entry.link} className={styles.EntryLink}>
-                Learn More
+                {entry.customLinkTitle || 'Learn More'}
               </a>
             )}
           </div>
