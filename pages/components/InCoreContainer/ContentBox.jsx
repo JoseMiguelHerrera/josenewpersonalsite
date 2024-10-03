@@ -16,7 +16,11 @@ export default function ContentBox({ menuName, entries=[] }) {
                 {entry.endDate && `${entry.endDate}`}
               </p>
             )}
-            <p className={styles.EntryParagraph}>{entry.paragraph}</p>
+            {entry.paragraph && entry.paragraph.map((para, paraIndex) => (
+              <p key={paraIndex} className={styles.EntryParagraph}>
+                {para}
+              </p>
+            ))}
             {entry.link && (
               <a href={entry.link} className={styles.EntryLink}>
                 {entry.customLinkTitle || 'Learn More'}

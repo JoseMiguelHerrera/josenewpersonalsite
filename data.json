@@ -12,7 +12,13 @@
             "entries": [
                 {
                     "title": "Summary",
-                    "paragraph": "Jose Herrera is a seasoned blockchain engineer with a talent for transforming intricate protocols into streamlined solutions. With 7 years of experience mastering Solidity and Web3 technologies, Jose has been a key player in the blockchain revolution, crafting smart contracts and decentralized systems that push the boundaries of what's possible in the digital realm.\n\nA graduate from a top Canadian university, Jose has been making waves in the blockchain world since the early days of Ethereum. From spearheading stealth DeFi protocols to advising innovative startups, he's become the go-to expert for turning ambitious blockchain concepts into robust, functional realities.\n\nJose's expertise spans the full stack, showcasing a comprehensive skill set that goes beyond blockchain development. He excels in crafting robust testing suites, ensuring code quality and reliability. His talent for software architecture allows him to design scalable and efficient systems that stand the test of time. Jose's technical writing skills shine through in his detailed documentation and planning documents, making complex concepts accessible to both technical and non-technical stakeholders. On the front-end, he's proficient with modern frameworks like React and Next.js, creating seamless user experiences. His database work, covering both SQL and NoSQL solutions, rounds out his full-stack capabilities. In the blockchain realm, Jose is adept with Foundry and other cutting-edge development tools, implementing everything from AI-driven investment funds to on-chain governance systems.\n\nWhen he's not architecting the future of finance, you might find Jose explaining blockchain to his houseplants or trying to convince his toaster to join a DAO. His passion for decentralization is matched only by his knack for making complex systems accessible to both developers and users alike.\n\nIn short, if you're seeking a Senior Web3/Blockchain/Protocol Engineer who can transform your most ambitious blockchain ideas into reliable, efficient code, Jose is the engineer you need. Just don't ask him about the time he tried to create a smart contract for his laundry schedule - some things are better left to traditional methods."
+                    "paragraph": [
+                        "Jose Herrera is a seasoned blockchain engineer with a talent for transforming intricate protocols into streamlined solutions. With 7 years of experience mastering Solidity and Web3 technologies, Jose has been a key player in the blockchain revolution, crafting smart contracts and decentralized systems that push the boundaries of what's possible in the digital realm.",
+                        "A graduate from a top Canadian university, Jose has been making waves in the blockchain world since the early days of Ethereum. From spearheading stealth DeFi protocols to advising innovative startups, he's become the go-to expert for turning ambitious blockchain concepts into robust, functional realities.",
+                        "Jose's expertise spans the full stack, showcasing a comprehensive skill set that goes beyond blockchain development. He excels in crafting robust testing suites, ensuring code quality and reliability. His talent for software architecture allows him to design scalable and efficient systems that stand the test of time. Jose's technical writing skills shine through in his detailed documentation and planning documents, making complex concepts accessible to both technical and non-technical stakeholders. On the front-end, he's proficient with modern frameworks like React and Next.js, creating seamless user experiences. His database work, covering both SQL and NoSQL solutions, rounds out his full-stack capabilities. In the blockchain realm, Jose is adept with Foundry and other cutting-edge development tools, implementing everything from AI-driven investment funds to on-chain governance systems.",
+                        "When he's not architecting the future of finance, you might find Jose explaining blockchain to his houseplants or trying to convince his toaster to join a DAO. His passion for decentralization is matched only by his knack for making complex systems accessible to both developers and users alike.",
+                        "In short, if you're seeking a Senior Web3/Blockchain/Protocol Engineer who can transform your most ambitious blockchain ideas into reliable, efficient code, Jose is the engineer you need. Just don't ask him about the time he tried to create a smart contract for his laundry schedule - some things are better left to traditional methods."
+                    ]
                 }
             ]
         },
@@ -24,68 +30,88 @@
                     "title": "Stealth Defi Protocol: Lead Solidity Engineer & Software Architect",
                     "startDate": "June 2024",
                     "endDate": "Present",
-                    "paragraph": "Interpreted company requirements for AI-driven investment fund, wrote planning documents, implemented defi protocol, created unit test suite, collaborated with auditors, wrote launch strategies, and developed supporting microservices."
+                    "paragraph": [
+                        "Interpreted company requirements for AI-driven investment fund, wrote planning documents, implemented defi protocol, created unit test suite, collaborated with auditors, wrote launch strategies, and developed supporting microservices."
+                    ]
                 },
                 {
                     "title": "ProductShare: Technical Advisor",
                     "startDate": "August 2021",
                     "endDate": "May 2024",
-                    "paragraph": "Led technical infrastructure design, created microservices, developed smart contracts, managed token sale, and set up DAO for onchain governance.",
+                    "paragraph": [
+                        "Led technical infrastructure design, created microservices, developed smart contracts, managed token sale, and set up DAO for onchain governance."
+                    ],
                     "link": "https://productshare.co/"
                 },
                 {
                     "title": "4K.com: Senior Software Engineer (Web3/Solidity Protocol)",
                     "startDate": "March 2022",
                     "endDate": "May 2024",
-                    "paragraph": "Implemented 4K protocol smart contracts, designed tokenomics and governance, created DAO, implemented reward system, and developed testing suite.",
+                    "paragraph": [
+                        "Implemented 4K protocol smart contracts, designed tokenomics and governance, created DAO, implemented reward system, and developed testing suite."
+                    ],
                     "link": "https://4k.com/"
                 },
                 {
                     "title": "Triple Point Liquidity: Software Engineer",
                     "startDate": "November 2020",
                     "endDate": "February 2022",
-                    "paragraph": "Built platform for complex private equity transactions using private blockchain, worked on full stack development.",
+                    "paragraph": [
+                        "Built platform for complex private equity transactions using private blockchain, worked on full stack development."
+                    ],
                     "link": "https://www.triplepointliquidity.com/"
                 },
                 {
                     "title": "Novera Capital: Lead Software Engineer",
                     "startDate": "August 2018",
                     "endDate": "October 2020",
-                    "paragraph": "Led full stack development of all products, developed decentralized financial derivatives, designed software architecture, and managed devops.",
+                    "paragraph": [
+                        "Led full stack development of all products, developed decentralized financial derivatives, designed software architecture, and managed devops."
+                    ],
                     "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423179"
                 },
                 {
                     "title": "Polymath: Software Engineer Intern",
                     "startDate": "June 2018",
                     "endDate": "September 2020",
-                    "paragraph": "Helped bring Polymath Dapp to main net and shipped version 1.3 with new features.",
+                    "paragraph": [
+                        "Helped bring Polymath Dapp to main net and shipped version 1.3 with new features."
+                    ],
                     "link": "https://polymath.network/"
                 },
                 {
                     "title": "Bull Bitcoin: Software Engineer",
                     "startDate": "January 2018",
                     "endDate": "July 2018",
-                    "paragraph": "Created custom full stack software to increase Bitcoin adoption in Canada, focusing on banking/regulatory compliance.",
+                    "paragraph": [
+                        "Created custom full stack software to increase Bitcoin adoption in Canada, focusing on banking/regulatory compliance."
+                    ],
                     "link": "https://www.bullbitcoin.com/"
                 },
                 {
                     "title": "Adappcity: Blockchain Technology Advisor / Blockchain (Solidity) Engineer",
                     "startDate": "August 2017",
                     "endDate": "December 2017",
-                    "paragraph": "Created software architecture for a decentralized art market based on ethereum and pioneered using NFTs to represent RWAs."
+                    "paragraph": [
+                        "Created software architecture for a decentralized art market based on ethereum and pioneered using NFTs to represent RWAs."
+                    ]
                 },
                 {
                     "title": "Critical Mass: Software Developer Internship",
                     "startDate": "May 2017",
                     "endDate": "August 2017",
-                    "paragraph": "Architected and implemented a scalable software project to automate marketing science activities and participated in the Citi FinTech CitiBlue reboot challenge.",
+                    "paragraph": [
+                        "Architected and implemented a scalable software project to automate marketing science activities and participated in the Citi FinTech CitiBlue reboot challenge."
+                    ],
                     "link": "https://www.criticalmass.com/"
                 },
                 {
                     "title": "IBM: Business Process Management Developer Intern",
                     "startDate": "May 2015",
                     "endDate": "August 2016",
-                    "paragraph": "Worked on developing and maintaining IBM's Business Process Management software and assisted in porting BPM to the cloud.",
+                    "paragraph": [
+                        "Worked on developing and maintaining IBM's Business Process Management software and assisted in porting BPM to the cloud."
+                    ],
                     "link": "https://www.ibm.com/ca-en"
                 }
             ]
@@ -98,20 +124,26 @@
                     "title": "Kings of the Cities",
                     "startDate": "May 2021",
                     "endDate": "Present",
-                    "paragraph": "Conceptualized and developed Kings of The Cities (KOTC), an innovative NFT-based platform representing global city rankings. Implemented smart contracts for minting unique 'King' and 'Queen' NFTs for approximately 350 cities, integrated with DeFi ecosystems for treasury growth, and designed a token yield system with DAO governance. Developed the project website using Solidity and Web3 technologies, implementing features such as the minting process, token yield distribution, and DAO voting mechanisms. Successfully launched the project, opening minting for the top 50 world cities, and planned future developments including real-world partnerships and exclusive experiences for the KOTC community.",
+                    "paragraph": [
+                        "Conceptualized and developed Kings of The Cities (KOTC), an innovative NFT-based platform representing global city rankings. Implemented smart contracts for minting unique 'King' and 'Queen' NFTs for approximately 350 cities, integrated with DeFi ecosystems for treasury growth, and designed a token yield system with DAO governance. Developed the project website using Solidity and Web3 technologies, implementing features such as the minting process, token yield distribution, and DAO voting mechanisms. Successfully launched the project, opening minting for the top 50 world cities, and planned future developments including real-world partnerships and exclusive experiences for the KOTC community."
+                    ],
                     "link": "https://kingsofthecities.com/"
                 },
                 {
                     "title": "Bitscreen",
                     "startDate": "December 2017",
                     "endDate": "March 2020",
-                    "paragraph": "Created an IOT+blockchain solution for the digital out of home advertising industry. Users could pay ETH to get ads displayed on a physical screen somewhere in the world. Built on ethereum, solidity, nodeJS, and with IPFS."
+                    "paragraph": [
+                        "Created an IOT+blockchain solution for the digital out of home advertising industry. Users could pay ETH to get ads displayed on a physical screen somewhere in the world. Built on ethereum, solidity, nodeJS, and with IPFS."
+                    ]
                 },
                 {
                     "title": "BlockVote",
                     "startDate": "January 2016",
                     "endDate": "May 2017",
-                    "paragraph": "Ongoing project leveraging blockchain technology to allow distributed computing to solve security, anonymity, and verification concerns in traditional voting systems. Collaboration between IBM and the government of Canada.",
+                    "paragraph": [
+                        "Ongoing project leveraging blockchain technology to allow distributed computing to solve security, anonymity, and verification concerns in traditional voting systems. Collaboration between IBM and the government of Canada."
+                    ],
                     "link": "https://calgaryherald.com/news/local-news/university-of-calgary-students-close-in-on-fraud-proof-electronic-voting-system"
                 }
             ]
@@ -142,17 +174,31 @@
             "id": 4,
             "entries": [
                 {
-                    "title": "Entry 1",
-                    "startDate": "April 2023",
-                    "paragraph": "This is the first entry about a new project kickoff.",
-                    "link": "https://example.com/entry1"
+                    "title": "Business in the Front, Crypto in the Back: How to Be a Blockchain Startup in Fintech",
+                    "startDate": "July 22 2019",
+                    "paragraph": [
+                        "This paper details the partnership between Novera, a blockchain startup, and CompanyX, an SME investment firm, in developing innovative financial products using blockchain technology. The focus is on their creation of Long-Short Funds and Long-Short Tokens for bitcoin investing. Jose Herrera, Novera's Lead Blockchain Engineer, plays a key role in this narrative. Described as a twentysomething blockchain enthusiast who moved to Toronto to be part of its blockchain scene, Herrera embodies the company's 'crypto in the back' ethos. He's quoted as saying Novera is 'like a mullet, except it's like we're business in the front, crypto in the back,' encapsulating their approach of maintaining regulatory compliance while innovating with blockchain. Herrera, along with Novera's CTO, leads the development of the Long-Short Tokens, demonstrating his significant contribution to the company's technical implementation of blockchain solutions. His belief in blockchain's potential to democratize finance aligns with Novera's innovative approach in the fintech space."
+                    ],
+                    "customLinkTitle": "Read",
+                    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423179"
                 },
                 {
-                    "title": "Entry 2",
-                    "startDate": "April 2023",
-                    "endDate": "April 2023",
-                    "paragraph": "Progress update on the ongoing development phase.",
-                    "link": "https://example.com/entry2"
+                    "title": "Examining Trustless Interoperability Among Blockchain Fintech Services",
+                    "startDate": "Apr 1 2018",
+                    "paragraph": [
+                        "This research paper, authored by Jose Herrera under the supervision of Ken Barker, explores the development of a decentralized exchange for trustless interoperability between Bitcoin and Ethereum blockchains using atomic swaps. Jose's findings include the design of a two-tier, three-layer architecture that allows users to perform atomic swaps without running full blockchain nodes on their own machines. The solution comprises an exchange server that matches traders and coordinates swap steps, and client applications that control private keys and execute blockchain transactions. Jose identified limitations in the current atomic swap methods, including transaction fees, slow processing times, and potential fraud scenarios. He also noted that the proposed exchange could be improved by implementing an order book system for better liquidity and trader matching. Jose concluded that while the solution addresses many issues with centralized exchanges, some inherent limitations of atomic swaps remain, and further development of a JavaScript-based Bitcoin wallet could potentially allow for a pure web app implementation in the future."
+                    ],
+                    "customLinkTitle": "Read",
+                    "link": "https://drive.google.com/file/d/1viZ78qAHydHFJtG8bY_MwKEPFH8k6fgC/view"
+                },
+                {
+                    "title": "University of Calgary students close in on fraud-proof electronic voting system",
+                    "startDate": "Apr 11 2017",
+                    "paragraph": [
+                        "A University of Calgary student, Jose Herrera, and his team are developing a fraud-proof electronic voting system using IBM's Blockchain technology. Inspired by his experience with paper ballots in Canada's 2015 federal election, Herrera aims to create a secure, tamper-proof method for recording votes electronically. The system, mentored by IBM's Ivan Milman, could potentially eliminate controversies like the 'hanging chad' issue in the 2000 U.S. presidential election. While the team plans to test it first on a small scale with university student elections, Herrera believes it could be ready for large-scale implementation by 2019. However, he acknowledges that gaining public trust in an electronic voting system remains a significant challenge. The project highlights the potential for blockchain technology to modernize voting processes and possibly enable new forms of direct democracy."
+                    ],
+                    "customLinkTitle": "Read",
+                    "link": "https://calgaryherald.com/news/local-news/university-of-calgary-students-close-in-on-fraud-proof-electronic-voting-system"
                 }
             ]
         }
