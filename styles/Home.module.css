@@ -106,7 +106,7 @@
 .ContentBox{
   background-color: #001100;
   width:95%;
-  height: 85%;
+  height: 88.5%;
   border-style: solid;
   border-color: #00FF00;
   border-top: 1.5px solid #00FF00;
@@ -328,10 +328,14 @@
 
   .ContentContainer{
     width: 100vw;
-    height: 70%;
+    height: 80%;
     flex-direction: column;
     color: #00FF00;
     justify-content: start;
+  }
+
+  .animationBox {
+    height: 20%;
   }
 
   .menuIcon {
