@@ -51,7 +51,7 @@ export default function Home() {
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta property="description" content="Jose Herrera: Senior Blockchain Engineer & Full-Stack Developer. Expert in Solidity, Web3, DeFi, React, Node.js, and cloud services. 7+ years crafting smart contracts, DApps, and scalable web solutions. Bridging blockchain innovation with robust full-stack development." />
-      <meta name="description" content="Jose Herrera: Senior Blockchain/Web3 Engineer & Full-Stack Developer. Expert in Solidity, Web3, DeFi, React, Node.js, and cloud services. 7+ years crafting smart contracts, DApps, and scalable web solutions. Bridging blockchain innovation with robust full-stack development.">
+      <meta name="description" content="Jose Herrera: Senior Blockchain/Web3 Engineer & Full-Stack Developer. Expert in Solidity, Web3, DeFi, React, Node.js, and cloud services. 7+ years crafting smart contracts, DApps, and scalable web solutions. Bridging blockchain innovation with robust full-stack development."/>
       <meta property="og:site_name" content="Jose Herrera Blockchain/Web3 & Fullstack Software Engineer" />
       <meta property="og:title" content="Jose Herrera Blockchain/Web3 & Fullstack Software Engineer"></meta>
       <meta property="og:description" content="Expert in Solidity, Web3, DeFi, React, Node.js. 7+ years crafting smart contracts." />
