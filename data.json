@@ -27,11 +27,20 @@
             "id": 1,
             "entries": [
                 {
-                    "title": "Stealth Defi Protocol: Lead Solidity Engineer & Software Architect",
+                    "title": "Fractality Protocol: Lead Solidity Engineer & Software Architect",
                     "startDate": "June 2024",
                     "endDate": "Present",
                     "paragraph": [
-                        "Interpreted company requirements for AI-driven investment fund, wrote planning documents, implemented defi protocol, created unit test suite, collaborated with auditors, wrote launch strategies, and developed supporting microservices."
+                        "Interpreted and analyzed the company's requirements for an AI-driven investment fund powered by modern defi standards",
+                        "Wrote detailed planning documents outlining the protocol's algorithms, data structures, user stories, and general software architecture",
+                        "Implemented the Fractality defi protocol using the latest solidity best practices, implementing quant strategies",
+                        "Created a comprehensive unit test suite using forge, code coverage, and static analysis",
+                        "Closely worked with auditors to polish the protocol for launch",
+                        "Wrote strategies for the launch and the migration of existing investors to ensure integrity and prevent losses",
+                        "Wrote supporting scalable microservices and data pipelines in TypeScript to power the Fractality product, including creating subgraphs for the front end to consume",
+                        "Spearheaded the protocol's move from Arbitrum to Hyperliquid, ensuring safety and consistence for all token holders of $Y2K to $FRCT. Done with a combintion of smart contracts and offchain typescript microservices",
+                        "Implemented points system to reward participants in the protocol",
+                        "Created Telegram bot that allowed users to interact with the Fractality ecosystem"
                     ]
                 },
                 {
