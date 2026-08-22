@@ -1,9 +1,9 @@
 {
     "headerData": [
-        "Jose Herrera is a Software Engineer.",
-        "Jose Herrera does Blockchain Engineering.",
-        "Jose Herrera specializes in Solidity/EVM work.",
-        "Jose Herrera also likes to make neat websites"
+        "is a software engineer.",
+        "does blockchain engineering.",
+        "specializes in Solidity/EVM.",
+        "also makes neat websites."
     ],
     "menuData": [
         {
@@ -13,11 +13,13 @@
                 {
                     "title": "Summary",
                     "paragraph": [
-                        "Jose Herrera is a seasoned blockchain engineer with a talent for transforming intricate protocols into streamlined solutions. With 7 years of experience mastering Solidity and Web3 technologies, Jose has been a key player in the blockchain revolution, crafting smart contracts and decentralized systems that push the boundaries of what's possible in the digital realm.",
+                        "Jose Herrera is a seasoned full-stack and protocol engineer with a talent for transforming intricate protocols into streamlined solutions. With 8+ years mastering Solidity and Web3 technologies, Jose has been a key player in the blockchain revolution, crafting smart contracts and decentralized systems that push the boundaries of what's possible in the digital realm.",
                         "A graduate from a top Canadian university, Jose has been making waves in the blockchain world since the early days of Ethereum. From spearheading stealth DeFi protocols to advising innovative startups, he's become the go-to expert for turning ambitious blockchain concepts into robust, functional realities.",
+                        "More recently his work has moved closer to where millions of people actually touch crypto: consumer wallet infrastructure at Staff scope. That means transaction reliability measured in fractions of a percent, cross-chain integrations spanning new L1s and their EVMs, and security frameworks that catch the things a user could never be expected to notice — shipped across mobile, desktop, and headless clients rather than a single contract on a single chain.",
                         "Jose's expertise spans the full stack, showcasing a comprehensive skill set that goes beyond blockchain development. He excels in crafting robust testing suites, ensuring code quality and reliability. His talent for software architecture allows him to design scalable and efficient systems that stand the test of time. Jose's technical writing skills shine through in his detailed documentation and planning documents, making complex concepts accessible to both technical and non-technical stakeholders. On the front-end, he's proficient with modern frameworks like React and Next.js, creating seamless user experiences. His database work, covering both SQL and NoSQL solutions, rounds out his full-stack capabilities. In the blockchain realm, Jose is adept with Foundry and other cutting-edge development tools, implementing everything from AI-driven investment funds to on-chain governance systems.",
+                        "He also works as an AI-native engineer, pairing modern coding agents with deep protocol expertise — which is a formal way of saying he ships considerably more than one person probably should.",
                         "When he's not architecting the future of finance, you might find Jose explaining blockchain to his houseplants or trying to convince his toaster to join a DAO. His passion for decentralization is matched only by his knack for making complex systems accessible to both developers and users alike.",
-                        "In short, if you're seeking a Senior Web3/Blockchain/Protocol Engineer who can transform your most ambitious blockchain ideas into reliable, efficient code, Jose is the engineer you need. Just don't ask him about the time he tried to create a smart contract for his laundry schedule - some things are better left to traditional methods."
+                        "In short, if you're seeking a Staff-level Web3/Blockchain/Protocol Engineer who can transform your most ambitious blockchain ideas into reliable, efficient code — and own the stack around it — Jose is the engineer you need. Just don't ask him about the time he tried to create a smart contract for his laundry schedule - some things are better left to traditional methods."
                     ]
                 }
             ]
@@ -27,9 +29,23 @@
             "id": 1,
             "entries": [
                 {
+                    "title": "Exodus: Staff Engineer",
+                    "startDate": "September 2025",
+                    "endDate": "August 2026",
+                    "paragraph": [
+                        "Increased Ethereum transaction landing rates from 95% to 99%, cutting failures from 5% to 1% — an 80% relative reduction — and saving thousands of support hours through improvements to gas estimation, fees, nonces, replacements, simulation, and observability.",
+                        "Led the greenfield Hyperliquid integration for Exodus, architecting support for bridging, native deposits, perpetuals, EIP-712 signing, custom routing, market feeds, and optimistic transaction reconciliation.",
+                        "Architected a plugin-driven, cross-chain security framework covering EIP-7702 delegation detection, stablecoin blacklists, lost permissions, early risk hydration, recovery workflows, and diagnostics across mobile, desktop, and headless clients.",
+                        "Led Exodus's end-to-end ADI Network and ERC-20 integration across asset libraries and apps, supporting the ecosystem behind ADI Predictstreet, the first-ever Official Prediction Market Partner of the FIFA World Cup 2026.",
+                        "Hardened WalletConnect and dApp approvals against misleading simulations by surfacing immutable signed facts — including native value and destination — when simulated balance changes were missing or inconsistent.",
+                        "Improved Clarity indexer and staking reliability by resolving wallet-sync timestamp corruption, reflection-token balance inflation, ERC-20 spam, RPC tracing gaps, staking preflight failures, nonce issues, and UI stalls."
+                    ],
+                    "link": "https://www.exodus.com/"
+                },
+                {
                     "title": "Fractality Protocol: Lead Solidity Engineer & Software Architect",
                     "startDate": "June 2024",
-                    "endDate": "Present",
+                    "endDate": "June 2025",
                     "paragraph": [
                         "Interpreted and analyzed the company's requirements for an AI-driven investment fund powered by modern defi standards",
                         "Wrote detailed planning documents outlining the protocol's algorithms, data structures, user stories, and general software architecture",
@@ -130,9 +146,16 @@
             "id": 2,
             "entries": [
                 {
+                    "title": "BYX — Blockchain Yield Exchange",
+                    "paragraph": [
+                        "Led the development of a cross-chain DeFi opportunity aggregator that seamlessly connects users to yield-generating opportunities across multiple blockchains through a unified interface. Leveraging account abstraction via Privy, the platform eliminates complex wallet management while providing single-signature access to all supported chains.",
+                        "The system’s core innovation is its transparent handling of cross-chain complexities, automatically managing the underlying bridging and token swapping operations required to move assets between networks. This creates a frictionless user experience where investors can deploy capital into any DeFi opportunity with a single \"Invest\" action, regardless of which blockchain hosts the protocol. Built on TypeScript and Next.js, with cross-chain swaps powered by the relay.link protocol."
+                    ]
+                },
+                {
                     "title": "Kings of the Cities",
                     "startDate": "May 2021",
-                    "endDate": "Present",
+                    "endDate": "May 2022",
                     "paragraph": [
                         "Conceptualized and developed Kings of The Cities (KOTC), an innovative NFT-based platform representing global city rankings. Implemented smart contracts for minting unique 'King' and 'Queen' NFTs for approximately 350 cities, integrated with DeFi ecosystems for treasury growth, and designed a token yield system with DAO governance. Developed the project website using Solidity and Web3 technologies, implementing features such as the minting process, token yield distribution, and DAO voting mechanisms. Successfully launched the project, opening minting for the top 50 world cities, and planned future developments including real-world partnerships and exclusive experiences for the KOTC community."
                     ],
@@ -174,6 +197,11 @@
                 {
                     "title": "Twitter / X",
                     "link": "https://x.com/joseherreraweb3",
+                    "customLinkTitle": "Visit"
+                },
+                {
+                    "title": "Keybase",
+                    "link": "https://keybase.io/josemherrera",
                     "customLinkTitle": "Visit"
                 }
             ]

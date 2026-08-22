@@ -1,18 +1,14 @@
 import styles from '../../../../styles/Home.module.css';
-import { TypeAnimation } from 'react-type-animation';
 
-
-export default function MenuItem(props) {
-        return (
-            <TypeAnimation
-              sequence={[
-                props.menuName,
-              ]}
-              speed={200}
-              style={{ fontSize: '1.5em', display: 'flex', fontWeight: 'bold', flexDirection: 'row', alignItems: "center", justifyContent: "center"}}
-              repeat={0}
-              cursor={true}
-            />
-          );
-
+export default function MenuItem({ menuName, selected, onSelect }) {
+  return (
+    <button
+      type="button"
+      onClick={onSelect}
+      className={`${styles.MenuItem} ${selected ? styles.MenuItemSelected : ''}`}
+    >
+      <span className={styles.MenuItemMarker}>{selected ? '▸' : ' '}</span>
+      <span className={styles.MenuItemLabel}>{menuName}</span>
+    </button>
+  );
 }

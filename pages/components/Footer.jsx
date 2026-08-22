@@ -1,9 +1,10 @@
 import styles from '../../styles/Home.module.css';
 
 export default function Footer() {
-    return (
-            <div className={styles.Footer}>
-                <p>Jose Herrera {new Date().getFullYear()}</p>
-            </div>
-    )
+  return (
+    <footer className={styles.Footer}>
+      <span>JOSE HERRERA © {new Date().getFullYear()}</span>
+      <span className={styles.footerSecure}>SESSION SECURE — 2048-BIT</span>
+    </footer>
+  );
 }
